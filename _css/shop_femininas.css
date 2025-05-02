@@ -118,7 +118,7 @@
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     font-family: 'Poppins', sans-serif;
-    margin: 20px auto;
+    margin: 1.5rem;
     animation: aparecerDeBaixo 1s ease-out forwards;
     opacity: 0;
     animation-delay: 1s;
@@ -190,7 +190,6 @@
   
   .grid_produtos_linha1 {
     display: flex;
-    gap: 2rem;
   }
   
   /* Definindo a animação */
@@ -203,4 +202,22 @@
       transform: translateY(0); /* Vai para a posição original */
       opacity: 1; /* Torna-se totalmente visível */
     }
+  }
+
+  .search-container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    max-width: 400px; /* Muda por aqui o tamanho da barra de pesquisa*/
+  }
+  
+  
+  .search-input {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 15px;
+    border: 1px solid #294d2c;
+    border-radius: 5px;
+    width: 100%; 
+    max-width: 900px;
   }

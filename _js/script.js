@@ -25,5 +25,3 @@ category.addEventListener("click", () => {
     // Esconde ou mostra os links de navegação
     navLinks.style.display = estaVisivel ? "flex" : "none";
 }
-
-
