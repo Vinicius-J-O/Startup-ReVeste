@@ -44,5 +44,46 @@ const carrinho = document.getElementById("carrinho");
   carrinho.style.display = "none"; // Esconde o carrinho quando clicar no "X"
 });
 
+// parte que muda as roupas na home da aba feminino
+
+function toggle_feminino() {
+  const masculino = document.getElementById("grid_masculino");
+  const feminino = document.getElementById("grid_feminino");
+  const brecho = document.getElementById("grid_brecho")
+
+  masculino.style.display = "none";
+  feminino.style.display = "flex";
+  brecho.style.display = "none";
+
+}
+
+// o masculino
+
+function toggle_masculino() {
+  const masculino = document.getElementById("grid_masculino");
+  const feminino = document.getElementById("grid_feminino");
+  const brecho = document.getElementById("grid_brecho")
+  
+
+  masculino.style.display = "flex";
+  feminino.style.display = "none";
+  brecho.style.display = "none";
+
+}
+
+// o brecho
+
+function toggle_brecho() {
+  const masculino = document.getElementById("grid_masculino");
+  const feminino = document.getElementById("grid_feminino");
+  const brecho = document.getElementById("grid_brecho")
+  
+
+  masculino.style.display = "none";
+  feminino.style.display = "none";
+  brecho.style.display = "flex";
+
+}
+
 
 

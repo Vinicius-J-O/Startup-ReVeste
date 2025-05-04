@@ -420,3 +420,11 @@ footer {
   font-size: 2rem;
   cursor: pointer; /* Adiciona um cursor de clique para indicar que é interativo */
 }
+
+.grid_produtos_feminino {
+  display: none;
+}
+
+.grid_produtos_brecho {
+  display: none;
+}
