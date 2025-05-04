@@ -49,11 +49,19 @@ const carrinho = document.getElementById("carrinho");
 function toggle_feminino() {
   const masculino = document.getElementById("grid_masculino");
   const feminino = document.getElementById("grid_feminino");
-  const brecho = document.getElementById("grid_brecho")
+  const brecho = document.getElementById("grid_brecho");
+  const botao_masculino = document.getElementById("botao_shop_masculino");
+  const botao_feminino = document.getElementById("botao_shop_feminino");
+  const botao_brecho = document.getElementById("botao_shop_brecho");
+
 
   masculino.style.display = "none";
   feminino.style.display = "flex";
   brecho.style.display = "none";
+  botao_masculino.style.display = "none";
+  botao_feminino.style.display = "flex";
+  botao_brecho.style.display = "none";
+
 
 }
 
@@ -62,12 +70,19 @@ function toggle_feminino() {
 function toggle_masculino() {
   const masculino = document.getElementById("grid_masculino");
   const feminino = document.getElementById("grid_feminino");
-  const brecho = document.getElementById("grid_brecho")
+  const brecho = document.getElementById("grid_brecho");
+  const botao_masculino = document.getElementById("botao_shop_masculino");
+  const botao_feminino = document.getElementById("botao_shop_feminino");
+  const botao_brecho = document.getElementById("botao_shop_brecho");
+
   
 
   masculino.style.display = "flex";
   feminino.style.display = "none";
   brecho.style.display = "none";
+  botao_masculino.style.display = "flex";
+  botao_feminino.style.display = "none";
+  botao_brecho.style.display = "none";
 
 }
 
@@ -76,12 +91,19 @@ function toggle_masculino() {
 function toggle_brecho() {
   const masculino = document.getElementById("grid_masculino");
   const feminino = document.getElementById("grid_feminino");
-  const brecho = document.getElementById("grid_brecho")
+  const brecho = document.getElementById("grid_brecho");
+  const botao_masculino = document.getElementById("botao_shop_masculino");
+  const botao_feminino = document.getElementById("botao_shop_feminino");
+  const botao_brecho = document.getElementById("botao_shop_brecho");
+
   
 
   masculino.style.display = "none";
   feminino.style.display = "none";
   brecho.style.display = "flex";
+  botao_masculino.style.display = "none";
+  botao_feminino.style.display = "none";
+  botao_brecho.style.display = "flex";
 
 }
 
