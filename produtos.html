@@ -24,8 +24,8 @@
           <nav class="nav-links">
             <a href="shop_masculino.html" id="shop_masculino">MASCULINO</a>
             <a href="shop_feminino.html" id="shop_feminino">FEMININO</a>
-            <a href="#" id="shop_acessiveis">ACESSÍVEIS</a>
-            <a href="#" id="aba_doacoes">DOAÇÕES</a>
+            <a href="acessiveis.html" id="shop_acessiveis">ACESSÍVEIS</a>
+            <a href="doacao.html" id="aba_doacoes">DOAÇÕES</a>
           </nav>
       
           <!-- Barra de busca (inicialmente oculta) -->
@@ -33,17 +33,39 @@
             <input type="text" placeholder="Buscar..." class="search-input">
           </div>
   
-          <!-- Ícones -->
-          <div class="header-icons">
-            <a href="#" title="Buscar" onclick="toggle_pesquisa()">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </a>      
-            <a href="#" title="Carrinho"><i class="fa-solid fa-bag-shopping"></i></a>
-            <a href="login.html" title="Login"><i class="fa-solid fa-user"></i></a>
-            <a href="login.html" title="Login"><i class="fa-solid fa-medal"></i></a>
-          </div>
-        </div>
+      <!-- Ícones -->
+      <div class="header-icons">
+        <a href="#" title="Buscar" onclick="toggle_pesquisa()">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+        <a href="#" id="cart-btn" title="Carrinho" onclick="toggleCarrinho()">
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+        <a href="login.html" title="Login"><i class="fa-solid fa-user"></i></a>
+        <a href="login.html" title="Login"><i class="fa-solid fa-medal"></i></a>
+      </div>
+      </div>
       </header>
+
+      <!-- Modal do carrinho -->
+
+<div class="carrinho" id="carrinho">
+  <div class="texto_emcima_carrinho">
+    <p>CARRINHO <i class="fas fa-shopping-cart" id="iconeCarrinho"></i></p>
+
+    <div class="icone_x"  id="close-cart">
+      <i class="fa-solid fa-x"></i>
+    </div>
+  </div>
+  <div class="texto_inicial">
+    <h1>O seu Carrinho ainda está vazio.</h1>
+    <h1>Sugestões:</h1>
+
+    <a href="shop_masculino.html"><button>MASCULINO</button></a>
+    <a href="shop_feminino.html"><button>FEMININO</button></a>
+    <a href="acessiveis.html"><button>ACESSÍVEIS</button></a>
+  </div>
+</div>
 
     <div class="imagem_principal">
         <img src="" alt="">

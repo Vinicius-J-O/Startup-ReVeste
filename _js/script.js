@@ -25,3 +25,24 @@ category.addEventListener("click", () => {
     // Esconde ou mostra os links de navegação
     navLinks.style.display = estaVisivel ? "flex" : "none";
 }
+
+// parte do carrinho de compras
+
+function toggleCarrinho() {
+  const carrinho = document.getElementById("carrinho");
+  const estaVisivel = carrinho.style.display === "flex";
+
+  // Alterna a visibilidade do carrinho
+  carrinho.style.display = estaVisivel ? "none" : "block";
+}
+  // parte do X
+
+const closeCartBtn = document.getElementById("close-cart");
+closeCartBtn.addEventListener("click", function() {
+const carrinho = document.getElementById("carrinho");
+
+  carrinho.style.display = "none"; // Esconde o carrinho quando clicar no "X"
+});
+
+
+
