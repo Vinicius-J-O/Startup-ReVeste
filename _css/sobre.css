@@ -1,0 +1,58 @@
+.tópico {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.texto {
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 3.5vh;
+}
+
+.texto h1 {
+    color: #8c7851;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    justify-content: left;
+}
+
+.texto p {
+    color: #101010;
+    font-size: 16px;
+    justify-content: left;
+    text-wrap: wrap;
+}
+
+.imagem {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem img {
+    width: 30vw;
+}
+
+.itens {
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+}
+
+.item img {
+    width: 37px;
+}
+
+.valores-texto {
+    margin-left: 2vw;
+}
