@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f1f1;
+  }
+  .spTittleContainer{
+    width: 100%;
+    position:relative;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    margin-bottom:10vh;
+  }
+  .spTittle{
+    font-family: poppins;
+    font-size: 10vh;
+    color: #294d2c;
+  }
+  .horizontal{
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  .contatoContainer{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+  }
+  .contatoContainerTittle{
+    font-size: 5vh;
+    color:  #2b5a2b;
+    display: flex;
+  }
+  .contatoContainerTittle i{
+    margin-right: 2%; 
+    top: 5%;
+    position: relative;
+  }
+  .redesContainer{
+    margin-right: 10%;
+  }
+  .redesContainer div{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    height: auto;
+    background-color: rgba(244,237,221);
+    border-radius: 10px;
+    border: 1px  solid   #2b5a2b;;
+    margin: 2%;
+  }
+
+  .redesContainer p{
+    font-size: 3vh;
+    margin: 2%;
+  }
+  .redesContainer i{
+    font-size: 3vh;
+    margin: 2%;
+  }
+
+  .redesContainer div:hover{
+   transform: scale(1.03);
+   transition: all 0.3s;
+  }
+.faqContainer{
+    width: auto;
+    height: auto;
+    margin: 2%;
+}
+.faqTittle {
+    position: relative;
+    margin-left: 2%;
+    font-size: 5vh;
+    display: flex;
+    color:  #2b5a2b;
+    width: 100%;
+    
+}
+.faq{
+    margin: 2%;
+
+}
+.faq li{
+    font-size: 3vh;
+    margin: 2%;
+}
+.faq i{
+    font-size: 3vh;
+    margin: 2%;
+    color: #101010;
+}
